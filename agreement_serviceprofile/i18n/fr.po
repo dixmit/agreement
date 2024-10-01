@@ -6,20 +6,20 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 12.0\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2021-01-04 11:44+0000\n"
-"Last-Translator: Rémi <remi@le-filament.com>\n"
+"PO-Revision-Date: 2020-08-18 16:59+0000\n"
+"Last-Translator: Grégory Moka Tourisme <gregory@mokatourisme.fr>\n"
 "Language-Team: none\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 4.3.2\n"
+"X-Generator: Weblate 3.10\n"
 
 #. module: agreement_serviceprofile
 #: model:ir.model.fields,field_description:agreement_serviceprofile.field_agreement_serviceprofile__message_needaction
 msgid "Action Needed"
-msgstr "Action nécessaire"
+msgstr ""
 
 #. module: agreement_serviceprofile
 #: model:ir.model.fields,field_description:agreement_serviceprofile.field_agreement_serviceprofile__active
@@ -52,7 +52,7 @@ msgstr "Étapes de l'accord"
 #. module: agreement_serviceprofile
 #: model:ir.model.fields,field_description:agreement_serviceprofile.field_agreement_serviceprofile__message_attachment_count
 msgid "Attachment Count"
-msgstr "Nombre de pièces jointes"
+msgstr ""
 
 #. module: agreement_serviceprofile
 #: model:ir.model.fields,field_description:agreement_serviceprofile.field_product_product__is_serviceprofile
@@ -78,17 +78,17 @@ msgstr "Nom d'affichage"
 #. module: agreement_serviceprofile
 #: model:ir.model.fields,field_description:agreement_serviceprofile.field_agreement_serviceprofile__message_follower_ids
 msgid "Followers"
-msgstr "Abonnés"
+msgstr ""
 
 #. module: agreement_serviceprofile
 #: model:ir.model.fields,field_description:agreement_serviceprofile.field_agreement_serviceprofile__message_channel_ids
 msgid "Followers (Channels)"
-msgstr "Abonnés (canaux)"
+msgstr ""
 
 #. module: agreement_serviceprofile
 #: model:ir.model.fields,field_description:agreement_serviceprofile.field_agreement_serviceprofile__message_partner_ids
 msgid "Followers (Partners)"
-msgstr "Abonnés (partenaires)"
+msgstr ""
 
 #. module: agreement_serviceprofile
 #: model:ir.model.fields,field_description:agreement_serviceprofile.field_agreement_serviceprofile__id
@@ -102,23 +102,23 @@ msgid ""
 "If True, this product will create a service profile on the\n"
 "         agreement when the sales order is confirmed."
 msgstr ""
-"Si Vrai, ce produit créera un profil de service sur\n"
-"           l'accord lorsque la commande client est confirmée."
+"Si Vrai, ce produit créera un profil de service sur l'accord lorsque la "
+"commande client est confirmée."
 
 #. module: agreement_serviceprofile
 #: model:ir.model.fields,help:agreement_serviceprofile.field_agreement_serviceprofile__message_unread
 msgid "If checked new messages require your attention."
-msgstr "Si coché, de nouveaux messages requièrent votre attention."
+msgstr ""
 
 #. module: agreement_serviceprofile
 #: model:ir.model.fields,help:agreement_serviceprofile.field_agreement_serviceprofile__message_needaction
 msgid "If checked, new messages require your attention."
-msgstr "Si coché, de nouveaux messages requièrent votre attention."
+msgstr ""
 
 #. module: agreement_serviceprofile
 #: model:ir.model.fields,help:agreement_serviceprofile.field_agreement_serviceprofile__message_has_error
 msgid "If checked, some messages have a delivery error."
-msgstr "Si coché, des messages ont une erreur de livraison."
+msgstr ""
 
 #. module: agreement_serviceprofile
 #: model:ir.model.fields,help:agreement_serviceprofile.field_agreement_serviceprofile__active
@@ -132,7 +132,7 @@ msgstr ""
 #. module: agreement_serviceprofile
 #: model:ir.model.fields,field_description:agreement_serviceprofile.field_agreement_serviceprofile__message_is_follower
 msgid "Is Follower"
-msgstr "Est abonné"
+msgstr ""
 
 #. module: agreement_serviceprofile
 #: model:ir.model.fields,field_description:agreement_serviceprofile.field_agreement_serviceprofile____last_update
@@ -152,17 +152,17 @@ msgstr "Dernière mise à jour le"
 #. module: agreement_serviceprofile
 #: model:ir.model.fields,field_description:agreement_serviceprofile.field_agreement_serviceprofile__message_main_attachment_id
 msgid "Main Attachment"
-msgstr "Pièce jointe principale"
+msgstr ""
 
 #. module: agreement_serviceprofile
 #: model:ir.model.fields,field_description:agreement_serviceprofile.field_agreement_serviceprofile__message_has_error
 msgid "Message Delivery error"
-msgstr "Erreur de livraison de message"
+msgstr ""
 
 #. module: agreement_serviceprofile
 #: model:ir.model.fields,field_description:agreement_serviceprofile.field_agreement_serviceprofile__message_ids
 msgid "Messages"
-msgstr "Messages"
+msgstr ""
 
 #. module: agreement_serviceprofile
 #: model:ir.model.fields,field_description:agreement_serviceprofile.field_agreement_serviceprofile__name
@@ -179,27 +179,27 @@ msgstr "Remarques"
 #. module: agreement_serviceprofile
 #: model:ir.model.fields,field_description:agreement_serviceprofile.field_agreement_serviceprofile__message_needaction_counter
 msgid "Number of Actions"
-msgstr "Nombre d'actions"
+msgstr ""
 
 #. module: agreement_serviceprofile
 #: model:ir.model.fields,field_description:agreement_serviceprofile.field_agreement_serviceprofile__message_has_error_counter
 msgid "Number of error"
-msgstr "Nombre d'erreurs"
+msgstr ""
 
 #. module: agreement_serviceprofile
 #: model:ir.model.fields,help:agreement_serviceprofile.field_agreement_serviceprofile__message_needaction_counter
 msgid "Number of messages which requires an action"
-msgstr "Nombre de messages qui requièrent une action"
+msgstr ""
 
 #. module: agreement_serviceprofile
 #: model:ir.model.fields,help:agreement_serviceprofile.field_agreement_serviceprofile__message_has_error_counter
 msgid "Number of messages with delivery error"
-msgstr "Nombre de messages avec erreur de livraison"
+msgstr ""
 
 #. module: agreement_serviceprofile
 #: model:ir.model.fields,help:agreement_serviceprofile.field_agreement_serviceprofile__message_unread_counter
 msgid "Number of unread messages"
-msgstr "Nombre de messages non lus"
+msgstr ""
 
 #. module: agreement_serviceprofile
 #: model:ir.model.fields,field_description:agreement_serviceprofile.field_agreement_serviceprofile__partner_id
@@ -261,19 +261,19 @@ msgstr "Type"
 #. module: agreement_serviceprofile
 #: model:ir.model.fields,field_description:agreement_serviceprofile.field_agreement_serviceprofile__message_unread
 msgid "Unread Messages"
-msgstr "Messages non-lus"
+msgstr ""
 
 #. module: agreement_serviceprofile
 #: model:ir.model.fields,field_description:agreement_serviceprofile.field_agreement_serviceprofile__message_unread_counter
 msgid "Unread Messages Counter"
-msgstr "Nombre de messages non lus"
+msgstr ""
 
 #. module: agreement_serviceprofile
 #: model:ir.model.fields,field_description:agreement_serviceprofile.field_agreement_serviceprofile__website_message_ids
 msgid "Website Messages"
-msgstr "Messages de site web"
+msgstr ""
 
 #. module: agreement_serviceprofile
 #: model:ir.model.fields,help:agreement_serviceprofile.field_agreement_serviceprofile__website_message_ids
 msgid "Website communication history"
-msgstr "Historique de la communication du site web"
+msgstr ""
