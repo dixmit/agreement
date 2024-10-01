@@ -13,15 +13,10 @@ class ProductTemplate(models.Model):
          agreement when the sales order is confirmed.""",
     )
 
-    @api.depends("is_serviceprofile")
-    def _compute_type(self):
-        for record in self:
-            if record.is_serviceprofile:
-                record.type = "service"
-            else:
-                super(ProductTemplate, self)._compute_type()
-
-        return True
+    @api.onchange("is_serviceprofile")
+    def onchange_type(self):
+        if self.is_serviceprofile:
+            self.type = "service"
 
 
 class ProductProduct(models.Model):
@@ -33,12 +28,7 @@ class ProductProduct(models.Model):
          agreement when the sales order is confirmed.""",
     )
 
-    @api.depends("is_serviceprofile")
-    def _compute_type(self):
-        for record in self:
-            if record.is_serviceprofile:
-                record.type = "service"
-            else:
-                super(ProductProduct, self)._compute_type()
-
-        return True
+    @api.onchange("is_serviceprofile")
+    def onchange_type(self):
+        if self.is_serviceprofile:
+            self.type = "service"

@@ -45,5 +45,7 @@ class AgreementServiceProfile(models.Model):
     # Used for Kanban grouped_by view
     @api.model
     def _read_group_stage_ids(self, stages, domain, order):
-        stage_ids = stages.search([("stage_type", "=", "serviceprofile")], order=order)
+        stage_ids = self.env["agreement.stage"].search(
+            [("stage_type", "=", "serviceprofile")]
+        )
         return stage_ids

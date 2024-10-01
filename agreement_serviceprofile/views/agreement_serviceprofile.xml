@@ -65,7 +65,7 @@
                         </group>
                     </group>
                     <group string="Notes">
-                            <field name="notes" nolabel="1" widget="html" colspan="2" />
+                            <field name="notes" nolabel="1" widget="html" />
                     </group>
                 </sheet>
                 <div class="oe_chatter">
