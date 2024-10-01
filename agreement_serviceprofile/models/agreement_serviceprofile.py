@@ -7,7 +7,6 @@ from odoo import fields, models, api
 
 class AgreementServiceProfile(models.Model):
     _name = 'agreement.serviceprofile'
-    _inherit = 'mail.thread'
     _description = 'Agreement Service Profiles'
 
     def _default_stage_id(self):
