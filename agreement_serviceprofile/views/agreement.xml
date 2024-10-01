@@ -11,21 +11,10 @@
                     <field name="serviceprofile_ids">
                         <tree>
                             <field name="name"/>
-                            <field name="product_id"/>
                         </tree>
                         <form>
-                            <group>
-                                <group>
-                                    <field name="name"/>
-                                </group>
-                                <group>
-                                    <field name="product_id"/>
-                                </group>
-                            </group>
-                            <group string="Notes">
-                                <field name="notes" nolabel="1"
-                                       placeholder="Add notes here..."/>
-                            </group>
+                            <field name="name"/>
+                            <field name="notes" placeholder="Add Notes Here..."/>
                         </form>
                     </field>
                 </page>

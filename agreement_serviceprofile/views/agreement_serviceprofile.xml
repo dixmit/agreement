@@ -9,7 +9,6 @@
             <tree string="Service Profiles" default_order='agreement_id'>
                 <field name="name"/>
                 <field name="agreement_id"/>
-                <field name="partner_id"/>
                 <field name="product_id"/>
                 <field name="active" invisible="1"/>
             </tree>
@@ -88,10 +87,7 @@
             <search>
                 <filter string="Agreement" name="group_agreement"
                         icon="terp-partner"
-                        context="{'group_by': 'agreement_id'}"/>
-                <filter string="Product" name="group_product"
-                        icon="terp-product"
-                        context="{'group_by': 'product_id'}"/>
+                        context="{'group_by':'agreement_id'}"/>
             </search>
         </field>
     </record>
