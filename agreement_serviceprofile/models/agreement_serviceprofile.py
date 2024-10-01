@@ -28,11 +28,8 @@ class AgreementServiceProfile(models.Model):
     notes = fields.Text(string="Notes")
     product_id = fields.Many2one('product.template', 'Service Product',
                                  domain="[('is_serviceprofile', '=', True), "
-                                        "('type', '=', 'service')]")
-    product_variant_id = fields.Many2one('product.product', 'Service Product Variant',
-                                         domain="[('is_serviceprofile', '=', True), "
-                                                "('type', '=', 'service')]")
-    use_product_variant = fields.Boolean('Use Product Variant', default=False)
+                                        "('type', '=', 'service')]",
+                                 required=True)
     partner_id = fields.Many2one(related='agreement_id.partner_id',
                                  string='Partner')
 
